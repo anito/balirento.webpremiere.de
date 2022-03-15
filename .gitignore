@@ -1,0 +1,53 @@
+# osx noise
+.DS_Store
+profile
+
+# xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+
+# svn & cvs
+.svn
+CVS
+
+
+/*
+/wp-content/*
+/wp-content/plugins/*
+
+/node_modules/*
+/node_modules/animate.css/*
+
+/wp-content/themes/*
+/wp-content/themes/*-child/ignored-assets
+/wp-content/themes/*-child/node_modules
+/wp-content/themes/*-child/scratchbook.*
+/wp-content/themes/*-child/languages/
+/wp-content/themes/*-child/js/node_modules
+
+!.gitignore
+!README.md
+
+# Animate Library
+!/node_modules
+!/node_modules/animate.css/
+!/node_modules/animate.css/animate.css
+!/node_modules/animate.css/animate.min.css
+
+!/wp-content/
+# child themes
+!/wp-content/themes
+!/wp-content/themes/*-child
+
+# plugins
+!/wp-content/plugins
+!/wp-content/plugins/woocommerce-new-product
+!/wp-content/plugins/wp-maintenance-mode
+!/wp-content/plugins/spine-app

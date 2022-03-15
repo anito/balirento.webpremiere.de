@@ -48,6 +48,4 @@ CVS
 
 # plugins
 !/wp-content/plugins
-!/wp-content/plugins/woocommerce-new-product
-!/wp-content/plugins/wp-maintenance-mode
-!/wp-content/plugins/spine-app
+#!/wp-content/plugins/wp-maintenance-mode

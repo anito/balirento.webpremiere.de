@@ -10,3 +10,10 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: astra-child
 */
+/**
+ *  woocommerce billing overview
+*/
+.woocommerce-checkout .woocommerce-order-details__title + ul {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+}

@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/includes/duplicate_content.php';
+require_once __DIR__ . '/includes/sender_email.php';
 /**
  * Define Constants
  */
